@@ -1,9 +1,11 @@
 package com.testing.class4;
 
 import com.testing.webKeyword.WebkeyWord;
+import org.testng.annotations.Test;
 
 public class ShopManagerTest {
-    public static void main(String[] args) {
+    @Test
+    public  void main() {
         WebkeyWord web=new WebkeyWord();
         web.openBrowser("Chrome");
         web.visitWeb("http://www.testingedu.com.cn:8000/Admin/Admin/login");

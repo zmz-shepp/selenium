@@ -3,7 +3,7 @@
 <suite name="All Test Suite"><test verbose="2" preserve-order="true" name="E:\selenium">
     <classes>
         <class name="com.testing.webKeyword.DDTofWeb"></class>
-
+        <class name="com.testing.class4.ShopManagerTest"></class>
     </classes>
 </test>
 
