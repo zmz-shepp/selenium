@@ -1,0 +1,6 @@
+10:30:48  [INFO ] : 访问的地址是http://www.testingedu.com.cn:8000/
+10:30:49  [INFO ] : 向//input[@id='username']元素输入13800138006
+10:30:49  [INFO ] : 向//input[@id='password']元素输入123456
+10:30:49  [INFO ] : 向//input[@name='verify_code']元素输入110
+10:30:55  [INFO ] : 断言元素的文本内容是：【套餐赠耳机】HUAWEI/华为 畅享8 Plus 全面屏手机
+10:30:55  [INFO ] : 断言文本内容包含畅享8测试成功

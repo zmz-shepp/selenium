@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="E:\selenium">
+    <classes>
+        <class name="com.testing.webKeyword.DDTofWeb"></class>
+
+    </classes>
+</test>
+
+
+
+<!--    <test name="test2">-->
+<!--        <classes>-->
+<!--            <class name="Mail.b"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="test3">-->
+<!--        <classes>-->
+<!--            <class name="Mail.c"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

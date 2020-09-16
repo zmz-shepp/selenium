@@ -1,0 +1,27 @@
+17:14:30  [INFO ] : +6++++++++++++++++++++当前的sheet页是：Sheet1+++++++++++++++++++++++++++++++
+17:14:34  [INFO ] : chrome浏览器启动
+17:14:46  [INFO ] : +6++++++++++++++++++++当前的sheet页是：Sheet1+++++++++++++++++++++++++++++++
+17:14:49  [INFO ] : chrome浏览器启动
+17:14:51  [INFO ] : 访问https://www.mi.com/?client_id=180100041080&masid=2110.0001&gsadid=gad_472_jnrx4c1y&utm_Account=Default&utm_Adgroup=%e5%b0%8f%e7%b1%b3&utm_Campaign=2020%e5%b9%b4%e5%85%a8%e5%b9%b4%e7%99%be%e5%ba%a6%e6%8a%95%e6%94%be%e9%a1%b9%e7%9b%ae&utm_Medium=Display&utm_Channel=%e7%99%be%e5%ba%a6PC&utm_Source=%e7%99%be%e5%ba%a6%e5%93%81%e4%b8%93&utm_Term=%e7%99%be%e5%ba%a6PC
+17:14:51  [ERROR] : org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T0HMG', ip: '192.168.100.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: be946798f6c5afd58173c81837fb5709
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T0HMG', ip: '192.168.100.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: be946798f6c5afd58173c81837fb5709
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:185) [classes/:?]
+	at com.testing.webKeyword.DDTofWeb.main(DDTofWeb.java:73) [classes/:?]
+17:14:52  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200828+17-14-51.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200828+17-14-51.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:493) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:186) [classes/:?]
+	at com.testing.webKeyword.DDTofWeb.main(DDTofWeb.java:73) [classes/:?]
+17:14:52  [ERROR] : 截图失败！

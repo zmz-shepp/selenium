@@ -1,0 +1,8 @@
+12:22:42  [INFO ] : +6++++++++++++++++++++当前的sheet页是：商城后台系统用例+++++++++++++++++++++++++++++++
+12:22:45  [INFO ] : chrome浏览器启动
+12:22:48  [INFO ] : chrome浏览器启动
+12:22:50  [INFO ] : 访问http://www.testingedu.com.cn:8000/Admin/Admin/login
+12:22:50  [INFO ] : 访问http://www.testingedu.com.cn:8000/Admin/Admin/login
+12:22:52  [INFO ] : 进入iframe成功！
+12:22:56  [INFO ] : +6++++++++++++++++++++当前的sheet页是：商城前台系统用例+++++++++++++++++++++++++++++++
+12:22:59  [INFO ] : chrome浏览器启动

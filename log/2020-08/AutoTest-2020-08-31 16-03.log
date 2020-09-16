@@ -1,0 +1,14 @@
+16:03:28  [INFO ] : 访问的地址是http://www.testingedu.com.cn:8000/Admin/Admin/login
+16:03:29  [INFO ] : 向//input[@name='username']元素输入admin
+16:03:29  [INFO ] : 向//input[@name='password']元素输入123456
+16:03:29  [INFO ] : 向//input[@name='vertify']元素输入126
+16:03:33  [INFO ] : 切换成功
+16:03:34  [INFO ] : 向//input[@name='goods_name']元素输入VIP张慕卓的测试商品
+16:03:36  [INFO ] : 向//input[@name='shop_price']元素输入5000
+16:03:36  [INFO ] : 向//input[@name='market_price']元素输入5500
+16:03:40  [INFO ] : 向//div[@id='filePicker']//input[@type='file']元素输入E:\2222233.png
+16:03:41  [INFO ] : 切换成功
+16:03:51  [INFO ] : 切换成功
+16:03:51  [INFO ] : 对//p元素执行js语句操作，返回结果是这是VIP05的测试商品
+16:03:51  [INFO ] : 切换成功
+16:03:52  [INFO ] : 关闭浏览器

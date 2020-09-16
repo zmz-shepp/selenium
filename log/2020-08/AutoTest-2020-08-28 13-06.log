@@ -1,0 +1,6 @@
+13:06:03  [INFO ] : +6++++++++++++++++++++当前的sheet页是：商城后台系统用例+++++++++++++++++++++++++++++++
+13:06:06  [INFO ] : chrome浏览器启动
+13:06:08  [INFO ] : 访问http://www.testingedu.com.cn:8000/Admin/Admin/login
+13:06:08  [INFO ] : +6++++++++++++++++++++当前的sheet页是：商城前台系统用例+++++++++++++++++++++++++++++++
+13:06:11  [INFO ] : chrome浏览器启动
+13:06:12  [INFO ] : 访问http://www.testingedu.com.cn:8000/Home/user/login.html
