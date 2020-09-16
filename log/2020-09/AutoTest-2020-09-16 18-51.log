@@ -1,0 +1,60 @@
+18:51:00  [ERROR] : org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[text()='添加商品']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T0HMG', ip: '192.168.100.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[text()='添加商品']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T0HMG', ip: '192.168.100.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.testing.webKeyword.WebkeyWord.click(WebkeyWord.java:128) [classes/:?]
+	at com.testing.class4.ShopManagerTest.addGoods(ShopManagerTest.java:70) [classes/:?]
+	at com.testing.class4.PObuyAndAdd.main(PObuyAndAdd.java:18) [classes/:?]
+18:51:05  [ERROR] : 对//input[@name='goods_name']输入操作失败
+18:51:05  [ERROR] : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T0HMG', ip: '192.168.100.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34ec98405fc3366a3086046b28d756c0
+*** Element info: {Using=xpath, value=//input[@name='goods_name']}
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T0HMG', ip: '192.168.100.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34ec98405fc3366a3086046b28d756c0
+*** Element info: {Using=xpath, value=//input[@name='goods_name']}
+	at com.testing.webKeyword.WebkeyWord.input(WebkeyWord.java:147) [classes/:?]
+	at com.testing.class4.ShopManagerTest.addGoods(ShopManagerTest.java:72) [classes/:?]
+	at com.testing.class4.PObuyAndAdd.main(PObuyAndAdd.java:18) [classes/:?]
+18:51:25  [INFO ] : 访问的地址是http://www.testingedu.com.cn:8000/Admin/Admin/login
+18:51:25  [INFO ] : 向//input[@name='username']元素输入admin
+18:51:25  [INFO ] : 向//input[@name='password']元素输入123456
+18:51:25  [INFO ] : 向//input[@name='vertify']元素输入126
+18:51:30  [INFO ] : 切换成功
+18:51:30  [INFO ] : 向//input[@name='goods_name']元素输入VIP张慕卓的测试商品
+18:51:57  [ERROR] : 对//input[@name='shop_price']输入操作失败
+18:51:57  [ERROR] : org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T0HMG', ip: '192.168.100.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ae2683a65da15a28792427e5a1e60e3
+*** Element info: {Using=xpath, value=//input[@name='shop_price']}
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T0HMG', ip: '192.168.100.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ae2683a65da15a28792427e5a1e60e3
+*** Element info: {Using=xpath, value=//input[@name='shop_price']}
+	at com.testing.webKeyword.WebkeyWord.input(WebkeyWord.java:147) [classes/:?]
+	at com.testing.class4.ShopManagerTest.main(ShopManagerTest.java:29) [classes/:?]
