@@ -172,9 +172,6 @@
             </plugin>
 
 
-
-
-
             <plugin>
 
                 <groupId>org.apache.maven.plugins</groupId>
@@ -185,6 +182,21 @@
 
             </plugin>
 
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <!-- 指定要运行的suite的xml配置文件 -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>a.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <!-- 指定执行surefire的时候，使用编码utf-8 -->
+                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                </configuration>
+
+            </plugin>
 
             <plugin>
 
